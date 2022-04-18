@@ -7,8 +7,7 @@
 
  html {
      font-size: 18px; /*!important pode ser usada para fazer uma regra prevalaecer, ainda que seja menos especifica.*/
-     scroll-behavior: smooth;
-     
+     scroll-behavior: smooth; 
  }
 
 
