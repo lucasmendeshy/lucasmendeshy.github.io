@@ -16,6 +16,9 @@
     <!-- CSS Externo -->
     <link rel="stylesheet" href="css/estilo.css">
 
+    <!-- Inserindo BxSlider -->
+    <link rel="stylesheet" href="plugins/bxslider/jquery.bxslider.css">
+
 </head>
 <body>
     
@@ -52,7 +55,7 @@
 
     <!-- Área de conteúdo principal -->
     <main>
-
+        <!-- 
         <section class="destaque">
 
            <div>
@@ -60,12 +63,23 @@
                 <p>A porta de entrada para o desenvolvimento web.</p>
            </div>
 
-        </section>
+        </section> 
+        -->
 
         <!-- Slider -->
 
         <section class="slider">
+            <div>
+                <a href="produtos.html" title="produtos Simplicity"> <img src="imagens/slide1.jpg" alt="Descrever imagem sempre"></a>
+            </div>
 
+            <div>
+                <a href="contato.html" title="Entre em contato"> <img src="imagens/slide2.jpg" alt="Descrever imagem sempre"></a>
+            </div>
+
+            <div>
+                 <img src="imagens/slide3.jpg" alt="Descrever imagem sempre"></a>
+            </div>
         </section>
 
         <!-- Área de conteúdo e texto e mais três imagens -->
@@ -112,6 +126,19 @@
     </footer>
 
     <script src="js/menu.js"></script>
+
+    <!-- BxSlider -->
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+      <script src="plugins/bxslider/jquery.bxslider.js"></script>
+
+      <!-- Inicianlizando o BX Slider -->
+      <script>
+           $(document).ready(function(){
+        $('.slider').bxSlider();
+    });
+      </script>
     
 </body>
 </html>

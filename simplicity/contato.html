@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simplicity - Serviços oferecidos</title>
+    <title>Simplicity - Contato</title>
 
     <!-- Fvicon -->
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
@@ -339,12 +339,23 @@ textMensagem.on("input", function(){
  let conteudo = textMensagem.val();
 // criando a contagem regressiva
  let contagem = quantidade - conteudo.length;
- 
+// console.log(contagem)
+
+// Exibindo o número no HTML
+bCaractere.text(contagem) 
 });
 
+if (contagem == 0) {
+    spanMaximo.css('color', 'red');
+    spanMaximo.text("Limite de caracteres alcançado");
+} else {
+    spanMaximo.css('color', 'black')
+    spanMaximo.html("(restam <b id= 'caracteres'>" +contagem+"</b> caracteres");
+}
 
 
 </script>
+
 
 
 
