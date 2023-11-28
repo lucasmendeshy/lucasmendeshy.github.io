@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #87ceeb;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    max-width: 400px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin: 0 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card > img {
+    width: 400px;
+    height: 400px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.content {
+    padding: 10px;
+}
+
+h3 {
+    margin: 0 0 10px;
+}
+
+p {
+    width: 380px;
+    margin: 0;
+    color: #595959;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    .card {
+        max-width: 100%; /* Faz com que os cards ocupem a largura total em telas menores */
+        margin: 0 0 20px; /* Adiciona espaço inferior entre os cards em telas menores */  
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card > img {
+        width: 400px;
+        height: 400px;
+    }
+}
