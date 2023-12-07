@@ -1,0 +1,506 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    scroll-padding-top: 120px;
+}
+
+html {
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+header {
+    background-color: black; 
+     text-align: center;
+     position: sticky;  /*fixa o menu*/
+     top: 0;
+     padding-bottom: .4rem;  /*Define as dimensões interno inferior*/
+ }
+
+ .logo a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+ }
+
+ nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    padding: .5rem .6rem;
+    transition: all 0.8s;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #7800EF;
+    background-color: #E3C0F0;
+    border-radius: 10px;
+}
+
+#inicio {
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.conteudo {
+   margin-right: 14%;
+}
+
+.conteudo h1 {
+    font-size: 72px;
+    margin: 0;
+}
+
+.conteudo h2 {
+    margin: 0;
+    color: #595959;
+}
+
+.conteudo p {
+    color:#595959;
+    font-weight: 400;
+}
+
+#sobre {
+    background-color: #000;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 70vh;
+}
+
+.conteudoSobre {
+    max-width: 27%;
+}
+
+.conteudoSobre p {
+    margin: 0;
+}
+
+.tituloSobre hr {
+    width: 15%;
+    border-radius: 2px;
+    height: 2px;
+    background-color: white;
+    margin-right: 100%;
+}
+
+.img2 {
+margin-right: 18%;
+margin-bottom: 0.50rem;
+}
+
+.conteudoSobre h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+}
+.conteudoSobre h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+}
+
+
+.conteudoSobre p {
+    color: #fff;
+    opacity: 70%;
+    padding-top: 3%;
+}
+
+#projetos {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    height: 70vh;
+}
+
+
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    max-width: 400px;
+    margin: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(1, 1, 1, 1);
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.card > img {
+    width: 400px;
+    height: 200px;
+}
+ 
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.content {
+    padding: 10px;
+}
+
+h3 {
+    margin: 0 0 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #7800EF;
+    color: #fff;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.btnS {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    border: solid #7800EF 2px;
+    color: #595959;
+    border-radius: 10px;
+    transition: background-color 0.3s; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: #E3C0F0;;
+  
+}
+
+.btnS:hover {
+    background-color: #E3C0F0;;
+   
+}
+
+
+#habilidades {
+    height: 70vh;
+    background-color: #000;
+}
+
+.icones{
+    margin-bottom: 1rem;
+    margin-left: 7rem;
+}
+
+.cardHab p{
+    font-weight: 500;
+    color: #595959;
+}
+
+.titulo h2 {
+    color: #fff;
+    margin: 0;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.titulo hr {
+    margin: auto;
+    width: 5%;
+    margin-left: 44.6%;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+
+.cardsA{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    justify-content: center;
+}
+
+.cardsB{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cardHab {
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+  footer p {
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+  }
+
+  #contato{
+    background-color: #fff;
+    height: 25vh;
+}
+
+.contatoTitulo h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 2rem;
+    margin: 0;
+
+   
+}
+
+.contatoTitulo hr{
+    margin: auto;
+    width: 5%;
+    height: 3px;
+    background-color: #000;
+    border-radius: 4px;
+    margin-left: 46.6%;
+}
+
+.dados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18rem;
+    padding-top: 2rem;
+}
+
+.dados p{
+    width: 100%;
+}
+
+.redes{
+    display: flex;
+    gap: 1rem;
+}
+
+.instagram{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background: linear-gradient(#7f37c9, #FF2992, #FF9807);
+    cursor: pointer;
+}
+
+.instagram a i {
+    color: #fff;
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #0B66C3;
+    cursor: pointer;
+}
+
+.linkedin a i {
+    color: #fff;
+}
+  
+.github{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.github a i {
+    color: #fff;
+}
+
+  @media  screen and (min-width: 860px) {
+      header {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          height: 10vh;
+          
+      }
+  
+      .logo {
+          width: 25%;      
+      }
+  
+      header nav {
+          width: 70%;
+          max-width: 800px;
+      }
+    }
+
+  @media screen and (max-width: 700px) {
+
+   header nav {
+    height: 2.3vh;
+   }
+
+   header nav a {
+    font-size: 17px;
+   }
+
+   header nav ul {
+    margin-top: 1rem;
+   }
+
+  .logo  {
+    text-align: center;
+  }
+
+  .conteudo{
+    margin: 10px;
+    margin-top: 2rem;
+  }
+
+  .conteudo h1 {
+    font-size: 36px;
+  }
+
+  .conteudo h2 {
+    font-size: 24px;
+    color: #595959;
+  }
+
+  .img {
+    margin-top: 2rem;
+    width: 300px;
+    height: 300px;
+  }
+
+ .img2{
+    display: none;
+ }
+
+ .conteudoSobre{
+    max-width: 100%;
+    margin: 10px;
+ }
+
+ #projetos {
+    margin-top: 20rem;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card > img {
+    width: 400px;
+    height: 200px;
+}
+ 
+#habilidades{
+    margin-top: 20rem;
+    height: 100%;
+}
+
+.cardsA{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.cardsB{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 2rem;
+}
+
+footer p{
+    font-size: 14px;
+    margin-top: 14rem;
+}
+
+.titulo hr {
+    margin: auto;
+    width: 15%;
+    margin-left: 26%;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.contatoTitulo hr{
+    margin: auto;
+    width: 15%;
+    height: 3px;
+    background-color: #000;
+    border-radius: 4px;
+    margin-left: 35%;
+}
+}
