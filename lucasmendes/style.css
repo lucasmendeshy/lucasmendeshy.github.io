@@ -400,8 +400,12 @@ h3 {
 
   @media screen and (max-width: 700px) {
 
+  .logo p {
+    margin: 0;
+  }
+
    header nav {
-    height: 3vh;
+    height: 3.2vh;
    }
 
    header nav a {
@@ -487,7 +491,7 @@ h3 {
 
 footer p{
     font-size: 14px;
-    margin-top: 16rem;
+    margin-top: 18rem;
 }
 
 .titulo hr {
@@ -506,5 +510,13 @@ footer p{
     background-color: #000;
     border-radius: 4px;
     margin-left: 35%;
+}
+
+.tituloSobre hr {
+    width: 15%;
+    border-radius: 2px;
+    height: 2px;
+    background-color: white;
+    margin-right: 100%;
 }
 }
