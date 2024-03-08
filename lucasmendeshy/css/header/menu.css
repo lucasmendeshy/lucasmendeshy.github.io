@@ -1,0 +1,79 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px; 
+}
+
+.header-bg {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: #262626;
+}
+
+.header {
+  max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #262626;
+}
+
+.menu-logo a {
+  font-size: 2.5rem;
+  color: #f2f2f2;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header-menu a {
+  font-size: 1.125rem;
+  display: inline-block;
+  padding: 16px 0px;
+  position: relative;
+  color: #f2f2f2;
+}
+
+.header-menu a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: #8B65BF;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-menu a:hover {
+  color: #8B65BF;
+}
+
+.header-menu a:hover::after {
+  color: #8B65BF;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .header-menu {
+    gap: 20px;
+  }
+  .header-menu a {
+    padding: 8px 8px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-menu {
+    gap: 15px;
+  }
+  .header-menu a {
+    padding: 4px 8px;
+  }
+}
