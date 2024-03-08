@@ -1,0 +1,87 @@
+.sobre {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 128px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sobre-content {
+    margin-left: 60px;
+}
+
+.sobre-info {
+    margin-left: 10px;
+}
+
+.sobre-info img {
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+    margin-bottom: 40px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.alinhar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.alinhar a {
+    color: #8C8C8C;
+    margin:  0;
+}
+
+
+.atributos li {
+    font-size: 1.125rem;
+    color: #8C8C8C;
+    padding: 20px 0px;
+}
+
+.atributos li + li {
+    width: 280px;
+    border-top: 2px solid #B09DFB;
+}
+
+
+.sobre-mim {
+    max-width: 700px;
+}
+
+.sobre-mim h2 {
+    font-size: 2.5rem;
+    color: #262626;
+    margin-bottom: 40px;
+}
+
+.sobre-mim p {
+    color: #8C8C8C;
+    margin: 0px 0px 40px 0;
+    line-height: 1.4;
+}
+
+@media (min-width: 800px) and (max-width: 1057px) {
+    .sobre {
+        justify-content: center;
+        gap: 64px;
+        margin-bottom: 64px;
+    }
+    .sobre-content {
+        margin: 0;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 799px) {
+    .sobre {
+        padding: 32px 0;
+        margin-bottom: 0;
+        margin: 0 10px;
+    }
+    .sobre-mim h2 {
+        margin-top: 32px;
+    }
+} 
