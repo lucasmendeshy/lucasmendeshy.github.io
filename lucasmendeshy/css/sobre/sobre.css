@@ -35,6 +35,10 @@
     margin:  0;
 }
 
+.alinhar a:hover {
+    color: #8B65BF;
+}
+
 
 .atributos li {
     font-size: 1.125rem;

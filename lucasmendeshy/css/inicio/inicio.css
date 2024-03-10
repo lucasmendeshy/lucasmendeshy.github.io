@@ -10,32 +10,45 @@
 .inicio-info {
     max-width: 560px;
 }
-.inicio-info h3 {
-    font-size: 2rem;
+.inicio-info h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
     margin: 0;
     margin-bottom: 20px;
     color: #8C8C8C;
 }
 
 .inicio-info h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 20px;
     color: #262626;
 }
 
-.inicio-info p {
-    font-size: 1.125rem;
-    margin: 0px 0px 20px 0;
-    color: #8C8C8C;
+.decorador-logo {
+    color: #8B65BF;
 }
 
+
 .decorador {
-    font-size: 3rem;
-    color: #8B65BF;
+    font-size: 4rem;
+    color: #8B65BF; 
 }
 
 .gif {
     max-width: 560px;
+}
+
+.brazil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.brazil p {
+    font-size: 1.125rem;
+    color: #8C8C8C;
+    margin: 0;
 }
 
 @media (min-width: 800px) and (max-width: 1057px){
