@@ -15,3 +15,18 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+
+/* Efeito de Máquina de Escrever */
+
+function typeWriter(elemento) {
+  const textoArray = elemento.innerHTML.split('');
+  elemento.innerHTML = '';
+  textoArray.forEach((letra, i) => {
+    setTimeout(() => 
+      elemento.innerHTML += letra, 75 * i)
+  })
+}
+
+const titulo = document.querySelector(".titulo");
+typeWriter(titulo);

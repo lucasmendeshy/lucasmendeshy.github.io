@@ -8,8 +8,9 @@
 }
 
 .inicio-info {
-    max-width: 560px;
+    max-width: 420px;
 }
+
 .inicio-info h4 {
     font-size: 1.5rem;
     font-weight: 500;
@@ -22,6 +23,13 @@
     font-size: 3rem;
     margin-bottom: 20px;
     color: #262626;
+}
+
+.titulo::after {
+    content: "|";
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
 }
 
 .decorador-logo {
@@ -51,12 +59,24 @@
     margin: 0;
 }
 
+@keyframes pisca {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
 @media (min-width: 800px) and (max-width: 1057px){
     .inicio {
         flex-direction: column;
         align-items: center;
         padding: 64px 0;
         gap: 10px;
+    }
+    .inicio-info {
+        max-width: 320px;
     }
     .inicio-info h1 {
         font-size: 2.5rem;
@@ -71,6 +91,7 @@
         padding: 32px 0;
     }
     .inicio-info {
+        max-width: 320px;
         margin: 0 10px;
     }
     .inicio-info h4 {

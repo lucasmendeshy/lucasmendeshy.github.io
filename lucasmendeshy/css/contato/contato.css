@@ -38,7 +38,6 @@
     justify-content: center;
     gap: 60px;
 }
-
 @media (max-width: 800px) {
     .contato {
         padding: 64px;
