@@ -1,7 +1,7 @@
 .inicio {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 128px 0;
@@ -75,10 +75,11 @@
     }
 }
 
-@media (min-width: 800px) and (max-width: 1057px){
+@media (min-width: 800px) and (max-width: 1137px){
     .inicio {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         padding: 64px 0;
         gap: 10px;
     }
@@ -108,8 +109,5 @@
     .inicio-info h1 {
         font-size: 2rem;
         margin-bottom: 10px;
-    }
-    .gif {
-        display: none;
     }
   }
