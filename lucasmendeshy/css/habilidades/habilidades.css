@@ -3,13 +3,14 @@
     margin: 0 auto;
     padding: 128px 0;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
 }
 
 .titulo-habilidades h2 {
     font-size: 2.5rem;
-    color: #262626;
+    color: #F2F2F2;
     text-align: center;
 }
 

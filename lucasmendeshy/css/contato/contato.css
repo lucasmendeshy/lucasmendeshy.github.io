@@ -12,15 +12,20 @@
 
 .contato-info h2 {
     font-size: 2.5rem;
-    color: #262626;
+    color: #F2F2F2;
     margin-bottom: 128px;
 }
 
 .contato-info h3 {
     font-size: 2rem;
-    color: #262626;
+    color: #F2F2F2;
     margin: 0;
     margin-bottom: 40px;
+}
+
+#seguir {
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .contato-info p {

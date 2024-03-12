@@ -8,7 +8,7 @@
 }
 
 .inicio-info {
-    max-width: 420px;
+    width: 560px;
 }
 
 .inicio-info h4 {
@@ -22,7 +22,8 @@
 .inicio-info h1 {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #262626;
+    max-width: 420px;
+    color: #F2F2F2;
 }
 
 .titulo::after {
@@ -43,6 +44,7 @@
 }
 
 .gif {
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
     max-width: 560px;
 }
 
@@ -57,6 +59,11 @@
     font-size: 1.125rem;
     color: #8C8C8C;
     margin: 0;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
 }
 
 @keyframes pisca {

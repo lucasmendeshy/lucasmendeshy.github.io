@@ -25,6 +25,7 @@ a {
   height: 70px;
   padding: 1rem;
   background: #262626;
+  border-bottom: 2px solid #8B65BF
 }
 
 .header-container {
