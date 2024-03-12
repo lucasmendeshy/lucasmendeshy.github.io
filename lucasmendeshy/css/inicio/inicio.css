@@ -81,12 +81,13 @@
         align-items: center;
         justify-content: center;
         padding: 64px 0;
-        gap: 10px;
+        gap: 20px;
     }
     .inicio-info {
-        max-width: 320px;
+        width: 560px;
     }
     .inicio-info h1 {
+        max-width: 320px;
         font-size: 2.5rem;
     }
     .inicio-info h3 {
@@ -99,14 +100,14 @@
         padding: 32px 0;
     }
     .inicio-info {
-        max-width: 320px;
-        margin: 0 10px;
+        margin-bottom: 20px;
     }
     .inicio-info h4 {
         font-size: 1.25rem;
         margin-bottom: 10px;
     }
     .inicio-info h1 {
+        max-width: 320px;
         font-size: 2rem;
         margin-bottom: 10px;
     }

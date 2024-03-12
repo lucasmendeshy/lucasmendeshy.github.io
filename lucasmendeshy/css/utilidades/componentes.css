@@ -39,8 +39,8 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 400px) {
-/*   .botao-secundario {
-    margin-top: 12px;
-  } */
-}
+/* @media (min-width: 400px) and (max-width: 799px) {
+  .botao, .botao-secundario {
+    max-width: max-content;
+  }
+} */
