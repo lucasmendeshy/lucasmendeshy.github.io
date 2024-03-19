@@ -53,6 +53,7 @@
     cursor: pointer;
     border-radius: 4px;
     border: 2px solid #8B65BF;
+    max-width: max-content;
 }
 
 .tech {
