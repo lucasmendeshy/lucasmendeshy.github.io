@@ -25,7 +25,7 @@
 
 #seguir {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .contato-info p {
@@ -41,7 +41,7 @@
 .redes-contato {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 40px;
 }
 @media (max-width: 800px) {
     .contato {
