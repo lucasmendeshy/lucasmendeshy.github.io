@@ -1,7 +1,7 @@
 .contato {
     max-width: 1200px;
     margin: 0 auto;
-    margin-bottom: 128px;
+    padding-bottom: 64px;
 }
 
 .contato-info {
@@ -20,7 +20,7 @@
     font-size: 2rem;
     color: #F2F2F2;
     margin: 0;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 }
 
 #seguir {
@@ -31,7 +31,7 @@
 .contato-info p {
     font-size: 1.125rem;
     color: #8C8C8C;
-    margin: 0px 0px 40px 0;
+    margin: 0px 0px 32px 0;
 }
 
 .contato-info p > p {
@@ -45,10 +45,10 @@
 }
 @media (max-width: 800px) {
     .contato {
-        padding: 64px;
+        margin-bottom: 64px;
     }
     .contato-info h2 {
-       margin-bottom: 64px;
+       margin-bottom: 32px;
     }
 }
 

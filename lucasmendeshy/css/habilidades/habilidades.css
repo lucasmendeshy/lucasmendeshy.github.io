@@ -16,13 +16,16 @@
 
 @media (max-width: 800px) {
     .habilidades {
-        margin: 64px 0;
+        margin-top: 32px;
         justify-content: center;
+    }
+    .titulo-habilidades h2 {
+        margin-top: 64px;
     }
 }
 
 @media (min-width: 400px) and (max-width: 799px) {
     .habilidades {
-        margin: 32px 0;
+        margin-top: 32px;
     }
 }

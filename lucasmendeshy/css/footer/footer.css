@@ -4,8 +4,8 @@
     justify-content: center;
     flex-wrap: wrap;
     background: #262626;
-    border-top: 2px solid #8B65BF;
-    border-bottom: 2px solid #8B65BF;
+    /* border-top: 2px solid #8B65BF;
+    border-bottom: 2px solid #8B65BF; */
     height: 70px;
 }
 

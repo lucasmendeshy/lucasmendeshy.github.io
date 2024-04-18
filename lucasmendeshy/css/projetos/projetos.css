@@ -77,12 +77,12 @@
     border-radius: 2px;
     height: 2px;
     background: linear-gradient(#8B65BF, #BFADD9);
-    margin: 60px 0;
+    margin: 64px 0;
 }
 
 @media (max-width: 800px) {
     .projetos-titulo h2 {
-        margin-bottom: 64px;
+        margin: 64px 0px 32px 0px;
     }
     .projetos-info {
         justify-content: center;
