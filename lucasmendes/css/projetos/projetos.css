@@ -1,0 +1,155 @@
+.projetos-titulo h2 {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #010D01;
+    background: #F1B441;
+    padding-bottom: 16px;
+}
+
+.projetos {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 64px 0;
+}
+
+.projetos-info {
+    display: flex;
+    justify-content: center;
+    gap: 24px; 
+    flex-wrap: wrap;
+    background: #010D01;
+    height: 340px;
+    border-radius: 4px;
+}
+
+.projetos-info img {
+    border-radius: 4px;
+    /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); */
+   /*  box-shadow: 1px 1px 5px rgb(229, 229, 229); */
+   /* filter: drop-shadow(0 0 0.2em rgb(229, 229, 229)); */
+}
+
+.bikcraft{
+    width: 564px;
+    height: 340px;
+    padding-top: 24px;
+}
+
+.descricao  {
+    width: 564px;
+    height: 340px;
+}
+
+.descricao h4 {
+    font-size: 1.5rem;
+    color: #F2F2F2;
+    text-align: inherit;
+    margin: 0;
+    padding-top: 24px;
+}
+
+.descricao p {
+    font-size: 1.125rem;
+    color: #8C8C8C;
+    max-width: 564px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+    margin: 0;
+    padding-top: 16px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-top: 16px;
+}
+.span {
+    color: #8C8C8C;
+    padding: 6px 12px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    font-size: 0.875em;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 2px solid #8B65BF;
+    max-width: max-content;
+}
+
+.tech {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 63px;
+}
+
+.redes-port {
+    display: flex;
+    gap: 16px;
+}
+  
+.border {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 2px;
+    height: 2px;
+    background: #0C0D01;
+    margin: 32px 0;
+}
+
+@media (max-width: 801px) {
+    .projetos {
+        padding: 32px 0;
+    }
+    .projetos-titulo h2 {
+        margin: 0 10px;
+    }
+    .projetos-info {
+        height: auto;
+        margin: 0 10px;
+    }
+    .descricao p {
+       max-width: 600px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 799px) {
+    .projetos-titulo h2 {
+        margin: 0 10px;
+    }
+
+    .projetos-info {
+        height: 519px;
+        margin: 0 10px;
+    }
+    .bikcraft {
+        height: 197px;
+        padding: 0;
+    }
+    .bikcraft img {
+        width: 380px;
+        max-width: max-content;
+        height: auto;
+    }
+    .descricao {
+        width: auto;
+        height: auto;
+    }
+
+    .descricao h4 {
+        padding: 0;
+    }
+    .descricao p {
+        width: 348px;
+        font-size: 0.875rem;
+    }
+    .tech {
+        padding-top: 32px;
+    }
+}
