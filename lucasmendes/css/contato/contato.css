@@ -1,0 +1,100 @@
+.background-marrom-contato {
+    padding: 64px 0;
+    background: #404040;
+}
+
+.contato {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contato-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-info h2 {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+}
+
+.contato-info p {
+    margin: 0 auto;
+    padding-top: 16px;
+    color: #d9d9d9;
+    width: 860px;
+}
+
+.cards-contato {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    gap: 24px;
+}
+
+.info-contato {
+    width: 273px;
+    height: 183px;
+    background: #010D01;
+    color: #d9d9d9;
+    text-align: center;
+    border-radius: 4px;
+    margin: 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.info-contato span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.info-contato p  {
+    padding: 4px 0px 16px 0px;
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+.info-contato img {
+    padding: 32px 0px 8px 0px;
+    margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+    .background-marrom-contato {
+        padding: 32px 0;
+    }
+    .contato p {
+        margin: 0 10px;
+        
+    }
+}
+
+@media (min-width: 400px) and (max-width: 799px){
+    .background-marrom-contato {
+        padding: 32px 0;
+    }
+    .contato {
+        margin: 0;
+    }
+    .contato-info p {
+        width: 382px;
+        font-size: 0.875rem;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .contato-info h2 {
+        margin-bottom: 16px;
+     }
+
+     .contato-info h3 {
+        font-size: 1.25rem;
+     }
+}
