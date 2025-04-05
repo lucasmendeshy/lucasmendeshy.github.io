@@ -10,9 +10,9 @@
 }
 
 .sobre-content {
-    max-width: 373px;
+    max-width: 387px;
     margin: 64px 0;
-    height: 470px;
+    height: 500px;
     background: #0D0D0D;
     border-radius: 4px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -49,7 +49,7 @@
 .sobre-mim {
     max-width: 787px;
     margin: 64px 0;
-    height: 470px;
+    height: 500px;
     background: #0D0D0D;
     border-radius: 4px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
